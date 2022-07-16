@@ -1,0 +1,211 @@
+body {
+    background: #b0c8d4;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 800px;
+    height: 1200px;
+    box-sizing: border-box;
+    border: 10px solid #000000;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 2em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background: white;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.left {
+    width: 10%;
+    height: 101%;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 110%;
+}
+
+.right {
+    width: 90%;
+    height: 95%;
+}
+
+.one {
+    width: 100%;
+    height: 15%;
+    margin-bottom: 5px;
+}
+
+.two {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.three {
+    width: 70%;
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sex {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxHeader {
+    width: 100px;
+    height: 30px;
+    background: #e6e6e7;
+}
+
+.boxLeft {
+    width: 40px;
+    height: 20px;
+    background: #e6e6e7;
+}
+
+.boxOne {
+    width: 95%;
+    height: 80%;
+    background: #e6e6e7;
+}
+
+.boxTwo {
+    width: 100px;
+    height: 50px;
+    background: #e6e6e7;
+}
+
+.boxThree {
+    width: 40%;
+    height: 10%;
+    background: #e6e6e7;
+    margin: 15px;
+}
+
+.boxFour {
+    width: 90%;
+    height: 10%;
+    background: #e6e6e7;
+    margin: 15px;
+}
+
+.boxSex1 {
+    width: 90%;
+    height: 30%;
+    background: #e6e6e7;
+    margin: 10px;
+}
+
+.boxSex2 {
+    width: 30%;
+    height: 30%;
+    background: #e6e6e7;
+}
+
+
+@media screen  and (max-width: 1200px) and (min-width: 0px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .two {
+        height: 20%;
+        flex-wrap: wrap;
+    }
+
+    .boxTwo {
+        width: 35%;
+        height: 40%;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        margin-bottom: 5px;
+    }
+
+    .three {
+        margin-right: 5px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+
+    .boxThree {
+        width: 30%;
+        height: 15%;
+    }
+
+    .four {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .boxFour {
+        width: 42%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+}
